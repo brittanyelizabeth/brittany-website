@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brittany Massage Therapy — personalized massage and wellness sessions. Contact Brittany to ask about appointments.">
+  <title>Brittany | Massage Therapy & Wellness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Brittany home"><span class="brand-mark">B</span><span>Brittany<span class="brand-sub">MASSAGE & WELLNESS</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#services">Services</a><a href="#about">About</a><a href="#approach">Your Experience</a><a class="nav-cta" href="#contact">Request an Appointment</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A MOMENT JUST FOR YOU</p>
+        <h1>Make room for<br><em>feeling better.</em></h1>
+        <p class="hero-text">Thoughtful massage and wellness sessions designed around your comfort, your needs, and your time.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#contact">Request an appointment <span>↗</span></a><a class="text-link" href="#services">Explore services ↓</a></div>
+        <div class="trust-note"><span class="stars">★★★★★</span><span>Personal care. A calmer pace. A little time to reset.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="image-frame"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1100&q=85" alt="Peaceful spa treatment room"></div>
+        <div class="floating-note"><span class="leaf">✳</span><div><strong>Your time to unwind</strong><small>Personalized care, one session at a time</small></div></div>
+        <div class="hero-orbit"></div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <p>RESTORE YOUR BALANCE</p><span>✳</span><p>RELEASE TENSION</p><span>✳</span><p>MAKE TIME FOR YOU</p>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading"><div><p class="eyebrow">THE MENU</p><h2>Care that meets<br><em>you where you are.</em></h2></div><p class="section-desc">Choose the kind of session that feels right for you. We can discuss your preferences and goals before confirming an appointment.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-number">01</div><div class="service-icon">〰</div><h3>Relaxation Massage</h3><p>A soothing, unhurried session focused on helping you relax and recharge.</p><a href="#contact">Ask about this service <span>↗</span></a></article>
+        <article class="service-card featured"><div class="service-number">02</div><div class="service-icon">✺</div><h3>Deep Tissue Massage</h3><p>Focused pressure and techniques aimed at areas of muscle tension and tightness.</p><a href="#contact">Ask about this service <span>↗</span></a></article>
+        <article class="service-card"><div class="service-number">03</div><div class="service-icon">☼</div><h3>Personal Wellness</h3><p>A tailored session shaped around your comfort, preferences, and wellness goals.</p><a href="#contact">Ask about this service <span>↗</span></a></article>
+      </div>
+      <p class="fine-print">Service availability, session length, pricing, and suitability are confirmed directly with Brittany before booking.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1000&q=85" alt="Calm, softly lit wellness space"><span class="image-caption">A softer pace starts here.</span></div>
+      <div class="about-copy"><p class="eyebrow">A PERSONAL APPROACH</p><h2>Wellness should feel<br><em>personal.</em></h2><p>Every person arrives with different needs. Brittany's approach begins with listening, understanding your preferences, and helping you feel comfortable throughout your session.</p><p>Whether you're looking to take a quiet break or focus on areas of tension, the first step is a conversation about what works for you.</p><a class="button button-outline" href="#contact">Get in touch <span>↗</span></a></div>
+    </section>
+
+    <section class="approach section" id="approach">
+      <div class="center-heading"><p class="eyebrow">SIMPLE & CONSIDERED</p><h2>Your session, <em>made easy.</em></h2><p>Clear communication from your first enquiry to your appointment.</p></div>
+      <div class="steps">
+        <article><span>01</span><h3>Tell me what you need</h3><p>Share the service you're interested in and any preferences or questions.</p></article>
+        <article><span>02</span><h3>Confirm the details</h3><p>We'll discuss availability, session details, location, and pricing before confirming.</p></article>
+        <article><span>03</span><h3>Make time to reset</h3><p>Arrive ready for your scheduled session, with your comfort kept in mind.</p></article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-copy"><p class="eyebrow">LET'S CONNECT</p><h2>Your next moment<br>of calm starts <em>here.</em></h2><p>Send an appointment enquiry and Brittany will have the details you provide to follow up by email.</p><div class="contact-email"><span>EMAIL</span><a href="mailto:BrittanyElizabeth20072005@gmail.com">BrittanyElizabeth20072005@gmail.com</a></div></div>
+      <form class="contact-form" id="appointment-form">
+        <div class="form-row"><label for="name">Your name</label><input id="name" name="name" placeholder="Full name" required></div>
+        <div class="form-row"><label for="email">Your email</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+        <div class="form-row"><label for="service">Service you're interested in</label><select id="service" name="service" required><option value="">Choose a service</option><option>Relaxation Massage</option><option>Deep Tissue Massage</option><option>Personal Wellness</option><option>I'd like to discuss options</option></select></div>
+        <div class="form-row"><label for="date">Preferred date or time</label><input id="date" name="date" placeholder="e.g. weekday afternoon"></div>
+        <div class="form-row"><label for="message">Anything you'd like Brittany to know?</label><textarea id="message" name="message" rows="3" placeholder="Tell us about your request..."></textarea></div>
+        <button class="button button-dark submit-button" type="submit">Prepare email enquiry <span>↗</span></button>
+        <p class="form-note">This opens your email app with your enquiry filled in. It does not send automatically.</p>
+        <p class="form-status" id="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">B</span><span>Brittany<span class="brand-sub">MASSAGE & WELLNESS</span></span></a><p>Make space for rest. Make space for you.</p><a href="mailto:BrittanyElizabeth20072005@gmail.com">BrittanyElizabeth20072005@gmail.com</a><small>© <span id="year"></span> Brittany Massage & Wellness. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
